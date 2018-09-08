@@ -22,3 +22,39 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+/* Navigation */
+
+nav {
+  background-color: cadetblue;
+  color: white;
+}
+
+/* Banner Section */
+
+.banner {
+  height: 31rem;
+  background-image: url('../images/glasses-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+}
+
+/* Service Logos */
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-height: 8rem;
+  padding: 3rem 0;
+}
