@@ -23,11 +23,36 @@ body {
   margin: 0 auto;
 }
 
-/* Navigation */
+/* Header */
 
-nav {
+header {
   background-color: cadetblue;
   color: white;
+  position: relative;
+  top: 1rem;
+  z-index: 2;
+}
+
+header img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+nav {
+  display: inline;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+
+ul li {
+  padding: 1rem 2rem;
 }
 
 /* Banner Section */
@@ -57,4 +82,16 @@ nav {
   flex-wrap: wrap;
   max-height: 8rem;
   padding: 3rem 0;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: azure;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
 }
